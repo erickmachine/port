@@ -44,17 +44,13 @@ export function Navbar() {
         >
           <div className="relative w-8 h-8">
             <Image
-              src="/logo.png" // Caminho da sua logo na pasta public
+              src="/images/logo.png"
               alt="9Devs Logo"
               width={32}
               height={32}
               className="object-contain"
             />
           </div>
-          {/* Remove o texto se quiser só a imagem */}
-          {/* <span className="text-foreground font-bold text-lg tracking-tight">
-            9<span className="text-primary">Devs</span>
-          </span> */}
         </button>
 
         {/* Desktop links */}
