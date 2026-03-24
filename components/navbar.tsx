@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Menu, X, Zap } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 const links = [
   { label: 'Início', href: '#inicio' },
@@ -35,18 +36,25 @@ export function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo com imagem */}
         <button
           onClick={() => handleNav('#inicio')}
           className="flex items-center gap-2 group"
           aria-label="Ir para o início"
         >
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center cyan-glow group-hover:scale-105 transition-transform">
-            <Zap className="w-4 h-4 text-primary-foreground" />
+          <div className="relative w-8 h-8">
+            <Image
+              src="/logo.png" // Caminho da sua logo na pasta public
+              alt="9Devs Logo"
+              width={32}
+              height={32}
+              className="object-contain"
+            />
           </div>
-          <span className="text-foreground font-bold text-lg tracking-tight">
+          {/* Remove o texto se quiser só a imagem */}
+          {/* <span className="text-foreground font-bold text-lg tracking-tight">
             9<span className="text-primary">Devs</span>
-          </span>
+          </span> */}
         </button>
 
         {/* Desktop links */}
