@@ -36,7 +36,7 @@ export function Footer() {
                 <Zap className="w-4 h-4 text-primary-foreground" />
               </div>
               <span className="text-foreground font-bold text-lg">
-                Erick<span className="text-primary">Machine</span>
+                9<span className="text-primary">Devs</span>
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
@@ -89,7 +89,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} ErickMachine. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} 9Devs. Todos os direitos reservados.
           </p>
           <button
             onClick={scrollTop}
