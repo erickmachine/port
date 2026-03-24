@@ -1,6 +1,6 @@
-# 🚀 Deploy Next.js na VPS HostGator (Guia Completo)
+# 🚀 Portfólio de Erick Machine
 
-Este guia mostra como fazer deploy profissional de um projeto Next.js
+e tbm um guia que mostra como fazer deploy profissional de um projeto Next.js
 usando:
 
 -   Ubuntu VPS (HostGator)
