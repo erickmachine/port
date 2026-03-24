@@ -32,7 +32,7 @@ const SERVICES = [
       'Dashboard de controle completo',
       'Suporte e manutenção inclusos',
     ],
-    price: 'A partir de R$ 797',
+    price: 'A partir de R$ 450',
     color: 'oklch(0.74 0.17 200)',
     badge: 'Tecnologia de ponta',
   },
