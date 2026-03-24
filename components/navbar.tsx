@@ -35,11 +35,11 @@ export function Navbar() {
         scrolled ? 'bg-background/90 backdrop-blur-xl border-b border-border/50 shadow-lg' : ''
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        {/* Logo com imagem aumentada */}
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        {/* Logo com imagem aumentada - texto mantido */}
         <button
           onClick={() => handleNav('#inicio')}
-          className="flex items-center gap-3 group"
+          className="flex items-center gap-2 group"
           aria-label="Ir para o início"
         >
           <div className="relative w-12 h-12">
@@ -52,7 +52,7 @@ export function Navbar() {
               priority
             />
           </div>
-          <span className="text-foreground font-bold text-xl tracking-tight">
+          <span className="text-foreground font-bold text-lg tracking-tight">
             9<span className="text-primary">Devs</span>
           </span>
         </button>
