@@ -86,7 +86,7 @@ export function ContactSection() {
           <div className="lg:col-span-2 space-y-5">
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/55929996552961?text=Olá! Vim pelo site e gostaria de saber mais sobre seus serviços."
+              href="https://wa.me/+5592999652961?text=Olá! Vim pelo site e gostaria de saber mais sobre seus serviços."
               target="_blank"
               rel="noopener noreferrer"
               className="glass rounded-2xl p-5 flex items-center gap-4 hover:border-[#25d366]/50 transition-all group block"
