@@ -45,7 +45,7 @@ export function Navbar() {
             <Zap className="w-4 h-4 text-primary-foreground" />
           </div>
           <span className="text-foreground font-bold text-lg tracking-tight">
-            Erick<span className="text-primary">Machine</span>
+            9<span className="text-primary">Devs</span>
           </span>
         </button>
 
